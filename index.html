@@ -1,0 +1,53 @@
+<!--
+
+NEED OVERALL SCORE AS PERCENTAGE
+RANDOM QUESTION GENERATOR
+NEED START A NEW QUIZ
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Camera Operations Quiz</title>
+    <meta name="description" content="A quiz app to test your knowledge of basic camera controls.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">         
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC:400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:700&display=swap" rel="stylesheet">
+  </head>
+  <body class ="color-palette">
+    <header class="row">
+         <div class="column header-container">
+          <div class="art-question-score-container">
+            <div class="question-number"></div>
+            <h1><span>Camera</span><span>Operations</span></h1>
+            <div class="graphic-artwork" ></div>
+            <div class="score"> </div>  
+        </div>
+      </div>
+    </header>
+
+    <main role="main" aria-live="polite">
+      <fieldset>
+        <div class="row">
+          <div class="column start-page">
+            <img class="graphic-for-start" src="images/Exposure_Triangle_800x800 3.png" alt="Exposure Triangle" width="250" height="250">
+            <p>This quiz will test your knowledge of basic camera controls.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column button-container">
+                <button type="button" id="start"> Start Quiz</button>
+              </div>
+        </div>
+      </fieldset>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

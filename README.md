@@ -1,0 +1,1 @@
+This repo contains all files for the Quiz App. This app was built using jQuery.
